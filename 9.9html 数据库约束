@@ -1,0 +1,37 @@
+9.9html的学习笔记
+文件后缀是.html或者.htm
+HTML的结构标签
+<html>
+	<head>-- 开头
+		<title></title>
+	</head>
+	<body>--内容
+
+	</body>
+	</html>
+其中在<body>中定义文字
+<font color="red"></font>--可以转变文字颜色为红色
+<h1>-<h6>定义标题,h1最大
+<font>定义文本的字体尺寸颜色
+<b>定义粗体文本
+<i>定义斜体文本
+<u>定义文本下划线
+<center>定义文本居中
+<p>定义段落
+<br>定义折行,换行
+<hr>定义水平线
+关于数据库的一些使用技巧
+非空约束 not null--保证有数
+唯一约束 unique--每一个数据都不一样
+主键约束 primary key--主键是唯一标识,要求非空唯一
+检查约束check--条件约束
+默认约束default--无数据则采用默认
+外键约束foreing key--让两个表的数据连接
+MySQL不支持检查约束
+auto_increment自动增长当列是数字且唯一
+多表查询:
+内连接select 字段列表 form 表1,2... where 条件(隐式)
+select 字段列表 from 表1 (inner)--inner可以省略 join 表2 on 条件
+可以给表起别名用as且as可省略
+外连接
+select 字段列表 from 表1 left join 表2 on 条件
